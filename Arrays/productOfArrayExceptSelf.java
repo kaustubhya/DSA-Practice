@@ -24,6 +24,10 @@ public class productOfArrayExceptSelf {
                     productRight *= nums[i];
     
                 result[i] = resultLeft[i] * resultRight[i];  // imp think about this line of code
+                // left[n - 1] = largest here 
+                // right[n - 1] = least here
+                // n = nums.length
+
     
     
                 }
