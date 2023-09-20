@@ -21,7 +21,7 @@ class Solution {
             
              int start = 0;
         int end = nums.length - 1;
-            int firstPosition = -1;
+            int firstPosition = -1; // here put -1 as per question
              while(start <= end) {
             int mid = start + (end - start)/2;
             
@@ -53,7 +53,7 @@ class Solution {
             
             int start = 0;
             int end = nums.length - 1;
-            int lastPosition = -1;
+            int lastPosition = -1; // here put -1 as per question
 
              while(start <= end) {
             int mid = start + (end - start)/2;
