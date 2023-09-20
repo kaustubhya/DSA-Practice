@@ -62,5 +62,7 @@ public class threeSum {
     }
 }
 
+
+
 //  doing while(j <= k) may give duplicate triplets which may be wrong
 
