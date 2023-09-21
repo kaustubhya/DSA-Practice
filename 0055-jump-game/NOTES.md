@@ -1,0 +1,1 @@
+// the goal is to reach the last index and maxReach is the fuel needed to reach the last index, it is not necessary to use all of maxReach to reach the last index, be careful that that the fuel does not get exhausted before you reach the last index
