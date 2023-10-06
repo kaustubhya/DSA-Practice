@@ -12,7 +12,7 @@ class Solution {
     public ListNode sortList(ListNode head) {
         // let's use merge sort here
         
-        // 1. Base cse
+        // 1. Base case
         if(head == null || head.next == null) {
             return head; // list already sorted
         }
@@ -99,4 +99,6 @@ class Solution {
         return dummy.next;
         
     }
-}
+    
+} 
+    
