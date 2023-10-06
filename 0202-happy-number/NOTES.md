@@ -1,1 +1,1 @@
-​
+The reason for using a do-while loop in this case is that it guarantees at least one iteration, allowing the algorithm to check for cycles. If the loop were a regular while loop (where the condition is checked before the first iteration), and n is already 1, the loop would never execute. Using a do-while loop ensures that the loop body executes at least once, allowing the algorithm to identify cycles even for cases where n starts as 1 or reaches 1 after one or more iterations.
