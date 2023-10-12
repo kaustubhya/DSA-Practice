@@ -38,7 +38,11 @@ public class Linked_List_Reversal {
     }
 
     return prev;
+    // if we return prev here and enter head in the function argument, we will get a reversed linked list
 
     }
 
 }
+
+// TC = O(n)
+// SC = O(1)
