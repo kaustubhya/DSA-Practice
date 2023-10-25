@@ -48,6 +48,7 @@ public class rotate_LL_by_k {
         
        for(int i = 0; i < skip - 1; i++) {
            newLast = newLast.next;
+// go from 1 to skip or from 0 to skip - 1
            // starts from head, goes till length - k i.e. (skip) nodes ahead
            // we did skip - 1 because we now it will reach skip with the .next method
        }
