@@ -1,3 +1,16 @@
+/*
+Given an array {10, 20, 30, 40, 50, 60}
+
+Print the output as:
+
+{10, 60, 20, 50, 30, 40}
+i.e. {left, right, left+1, right-1, left+2, right-2, ......}  
+
+Here left = 0
+right = size - 1
+*/
+
+
 #include <iostream>
 using namespace std;
 
