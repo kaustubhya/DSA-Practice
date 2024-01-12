@@ -18,6 +18,14 @@ void reverseArray(int arr[], int size) {
         right--;
     }
 
+    // we could have also used for loop but it would have been a bit complex
+    
+    /* for(int left = 0, right = size - 1; left <= right; left++, right--) {
+        swap(arr[left], arr[right]);
+        left++;
+        right--;
+    } */
+
     cout<<"Here is your reversed array: " << endl;
 
     for(int i = 0; i < size; i++) {
