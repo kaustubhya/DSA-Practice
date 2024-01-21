@@ -29,13 +29,23 @@ int main() {
         // i = 0
         // here let us say row = 5
         /* 
-       then
-          r0 -> c0 -> 0 + 1 = 1
-          r1 -> c1 -> 1 + 1 = 2
-          r2 -> c2 -> 2 + 1 = 3
-          r3 -> c3 -> 3 + 1 = 4
-          r4 -> c4 -> 4 + 1 = 5
+       
+          then
+          r0 ->
+           c0 -> 0 + 1 = 1
+
+          r1 ->
+           c0 -> 0 + 1 = 1
+           c1 -> 1 + 1 = 2
+
+          r2 ->
+            c0 -> 0 + 1 = 1
+            c1 -> 1 + 1 = 2
+            c2 -> 2 + 1 = 3
+
+          and so on...
         */
+        
 
         // Not printing stars here ↓
        
